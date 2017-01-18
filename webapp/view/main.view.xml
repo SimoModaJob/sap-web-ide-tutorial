@@ -1,9 +1,131 @@
 <mvc:View controllerName="TestApp.controller.main" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
-	xmlns="sap.m">
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout">
 	<App>
 		<pages>
 			<Page title="{i18n>title}">
-				<content></content>
+				<content>
+					<Panel class="sapUiSmallMarginTop">
+		              <headerToolbar>
+		                <Toolbar>
+		                	<Title level="H3" text="STATO" />
+		                </Toolbar>
+		              </headerToolbar>
+		              <content>
+		                <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Cumulative Totals" subheader="Expenses" frameType="OneByOne"
+							press="press" id="tile1">
+							<tileContent>
+								<TileContent unit="Unit" footer="Footer Text">
+									<content>
+										<NumericContent value="1762" icon="sap-icon://line-charts"/>
+									</content>
+								</TileContent>
+							</tileContent>
+						</GenericTile>
+						<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Cumulative Totals" subheader="Expenses" frameType="OneByOne"
+							press="press">
+							<tileContent>
+								<TileContent unit="Unit" footer="Footer Text">
+									<content>
+										<NumericContent value="1762" icon="sap-icon://line-charts"/>
+									</content>
+								</TileContent>
+							</tileContent>
+						</GenericTile>
+		              </content>
+		            </Panel>
+		            
+		            <Panel class="sapUiSmallMarginTop">
+		              <headerToolbar>
+		                <Toolbar>
+		                	<Title level="H3" text="CODE" />
+		                </Toolbar>
+		              </headerToolbar>
+		              <content>
+		                <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Cumulative Totals" subheader="Expenses" frameType="OneByOne"
+							press="press">
+							<tileContent>
+								<TileContent unit="Unit" footer="Footer Text">
+									<content>
+										<NumericContent value="1762" icon="sap-icon://line-charts"/>
+									</content>
+								</TileContent>
+							</tileContent>
+						</GenericTile>
+						<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Cumulative Totals" subheader="Expenses" frameType="OneByOne"
+							press="press">
+							<tileContent>
+								<TileContent unit="Unit" footer="Footer Text">
+									<content>
+										<NumericContent value="1762" icon="sap-icon://line-charts"/>
+									</content>
+								</TileContent>
+							</tileContent>
+						</GenericTile>
+		              </content>
+		            </Panel>
+		            
+		            <Panel class="sapUiSmallMarginTop">
+		              <headerToolbar>
+		                <Toolbar>
+		                	<Title level="H3" text="CODE TRFC" />
+		                </Toolbar>
+		              </headerToolbar>
+		              <content>
+		                <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Cumulative Totals" subheader="Expenses" frameType="OneByOne"
+							press="press">
+							<tileContent>
+								<TileContent unit="Unit" footer="Footer Text">
+									<content>
+										<NumericContent value="1762" icon="sap-icon://line-charts"/>
+									</content>
+								</TileContent>
+							</tileContent>
+						</GenericTile>
+						<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Cumulative Totals" subheader="Expenses" frameType="OneByOne"
+							press="press">
+							<tileContent>
+								<TileContent unit="Unit" footer="Footer Text">
+									<content>
+										<NumericContent value="1762" icon="sap-icon://line-charts"/>
+									</content>
+								</TileContent>
+							</tileContent>
+						</GenericTile>
+		              </content>
+		            </Panel>
+		            
+		            <Panel class="sapUiSmallMarginTop">
+		              <headerToolbar>
+		                <Toolbar>
+		                	<Title level="H3" text="CODE QRFC" />
+		                </Toolbar>
+		              </headerToolbar>
+		              <content>
+		                <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Cumulative Totals" subheader="Expenses" frameType="OneByOne"
+							press="press">
+							<tileContent>
+								<TileContent unit="Unit" footer="Footer Text">
+									<content>
+										<NumericContent value="1762" icon="sap-icon://line-charts"/>
+									</content>
+								</TileContent>
+							</tileContent>
+						</GenericTile>
+						<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Cumulative Totals" subheader="Expenses" frameType="OneByOne"
+							press="press">
+							<tileContent>
+								<TileContent unit="Unit" footer="Footer Text">
+									<content>
+										<NumericContent value="1762" icon="sap-icon://line-charts"/>
+									</content>
+								</TileContent>
+							</tileContent>
+						</GenericTile>
+		              </content>
+		            </Panel>
+					
+				</content>
 			</Page>
 		</pages>
 	</App>
